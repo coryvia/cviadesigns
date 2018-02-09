@@ -1,0 +1,131 @@
+body {
+	font-family: 'Roboto', sans-serif;
+}
+
+h2, h3, h4, h5, h6 {
+	color: #2db470;
+}
+
+section {
+	/*max-width: 1080px;*/
+	padding: 4rem;
+}
+
+a {
+	color: #2db470;
+}
+
+a:hover {
+	color: #094eb6;
+	text-decoration: underline !important;
+}
+
+.bg-light-green {
+	background-color: #ebf2ee;
+}
+
+.bg-primary {
+	background: #1abb68; /* Old browsers */
+    background: -moz-linear-gradient(-45deg, #1abb68 0%, #084bb8 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(-45deg, #1abb68 0%,#084bb8 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(135deg, #1abb68 0%,#084bb8 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1abb68', endColorstr='#084bb8',GradientType=1 ); 
+    color: #ffffff;
+}
+
+.navbar {
+	color: #2db470;
+	padding: 2rem 1rem;
+}
+
+
+#site-header {
+	display: flex;
+}
+
+#site-id {
+	display: flex;
+	flex: 0 1 auto;
+}
+
+#site-logo {
+	flex: 1 0 auto;
+	padding-right: 1rem;
+}
+
+#site-titles {
+	display: flex;
+	flex: 0 1 auto;
+	flex-direction: column;
+	justify-content: center;
+	line-height: 1.6rem;
+}
+
+#site-title {
+	font-size: 1.6rem;
+	font-weight: bold;
+}
+
+#site-subtitle {
+	color: #999;
+	font-size: .9rem;
+}
+
+@media (min-width: 992px) {
+	header {
+		padding: 11rem 0 3rem;
+	}
+	.navbar-expand-lg .navbar-nav .nav-link {
+		padding: 0 2rem;
+	}
+}
+
+#services {}
+
+	#services h2 {
+		font-size: 1.4rem;
+	}
+
+	#services h2:nth-child(3) {
+		margin-top: 1.5rem;
+	}
+
+	#services p {
+		font-size: .9rem;
+	}
+
+	#services .img-feature img {
+		height: auto;
+		width: 100%;
+	}
+
+	#services .col1 {
+		text-align: right;
+	}
+
+	#services svg {
+		color: #0b2d1c;
+		font-size: 1.6rem;
+	}
+
+	#about img {
+		border-radius: 6px;
+		float: right;
+		margin-left: 1rem;
+		max-width: 100%;
+		width: 30%;
+	}
+
+	#contact {}
+
+		#contact p {
+			font-size: 1.6rem;
+		}
+
+		#contact h2 {
+			font-size: 1.3rem;
+		}
+
+		#contact h2, #contact p {
+			text-align: center;
+		}
