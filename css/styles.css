@@ -34,6 +34,7 @@ a:hover {
 }
 
 .navbar {
+    box-shadow: 0 0 15px #c3c3c3;
 	color: #2db470;
 	padding: 2rem 1rem;
 }
