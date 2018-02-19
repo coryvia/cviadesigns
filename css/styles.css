@@ -39,6 +39,11 @@ a:hover {
 	padding: 2rem 1rem;
 }
 
+@media (min-width: 992px) {
+	.navbar-expand-lg .navbar-nav .nav-link {
+		padding: 0 2rem;
+	}
+}
 
 #site-header {
 	display: flex;
@@ -52,6 +57,12 @@ a:hover {
 #site-logo {
 	flex: 1 0 auto;
 	padding-right: 1rem;
+}
+
+@media (max-width: 767.98px) {
+	#site-logo {
+		display: none;
+	}
 }
 
 #site-titles {
@@ -72,12 +83,13 @@ a:hover {
 	font-size: .9rem;
 }
 
-@media (min-width: 992px) {
+header {
+	padding: 11rem 0 3rem;
+}
+
+@media (max-width: 767.98px) {
 	header {
-		padding: 11rem 0 3rem;
-	}
-	.navbar-expand-lg .navbar-nav .nav-link {
-		padding: 0 2rem;
+		padding: 10rem 0 2rem;
 	}
 }
 
@@ -97,6 +109,7 @@ a:hover {
 
 	#services .img-feature img {
 		height: auto;
+		max-width: 320px;
 		width: 100%;
 	}
 
