@@ -8,8 +8,13 @@ h2, h3, h4, h5, h6 {
 }
 
 section {
-	/*max-width: 1080px;*/
 	padding: 4rem;
+}
+
+@media (max-width: 767.98px) {
+	section {
+		padding: 2rem;
+	}
 }
 
 a {
@@ -139,6 +144,16 @@ header {
 		color: #0b2d1c;
 		font-size: 1.6rem;
 		margin-right: .8rem;
+	}
+
+	@media (max-width: 767.98px) {
+		#services .col1 svg {
+			color: #0b2d1c;
+			float: left;
+			font-size: 1.6rem;
+			margin-left: 0;
+			margin-right: .8rem;
+		}
 	}
 
 	#about img {
