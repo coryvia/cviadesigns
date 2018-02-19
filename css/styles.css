@@ -108,6 +108,10 @@ header {
 		font-size: .9rem;
 	}
 
+	#services .img-feature {
+		text-align: center;
+	}
+
 	#services .img-feature img {
 		height: auto;
 		margin-bottom: 1rem;
@@ -119,9 +123,22 @@ header {
 		text-align: right;
 	}
 
-	#services svg {
+	@media (max-width: 767.98px) {
+		#services .col1 {
+			text-align: left;
+		}
+	}
+
+	#services .col1 svg {
 		color: #0b2d1c;
 		font-size: 1.6rem;
+		margin-left: .8rem;
+	}
+
+	#services .col3 svg {
+		color: #0b2d1c;
+		font-size: 1.6rem;
+		margin-right: .8rem;
 	}
 
 	#about img {
