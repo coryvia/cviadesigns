@@ -3,8 +3,12 @@ body {
 	margin-bottom: 10rem;
 }
 
-h2, h3, h4, h5, h6 {
+.color-home h2, .color-home h3, .color-home h4, .color-home h5, .color-home h6 {
 	color: #2db470;
+}
+
+.color-5oh8crew h2, .color-5oh8crew h3, .color-5oh8crew h4, .color-5oh8crew h5, .color-5oh8crew h6 {
+	color: #094eb6;
 }
 
 section {
@@ -17,8 +21,12 @@ section {
 	}
 }
 
-a {
+.color-home a {
 	color: #2db470;
+}
+
+.color-5oh8crew a {
+	color: #094eb6;
 }
 
 a:hover {
@@ -36,6 +44,15 @@ a:hover {
     background: -webkit-linear-gradient(-45deg, #1abb68 10%,#084bb8 90%); /* Chrome10-25,Safari5.1-6 */
     background: linear-gradient(135deg, #1abb68 10%,#084bb8 90%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1abb68', endColorstr='#084bb8',GradientType=1 ); 
+    color: #ffffff;
+}
+
+.bg-5oh8 {
+	background: #bb1a7b; /* Old browsers */
+    background: -moz-linear-gradient(-45deg, #bb1a7b 10%, #084bb8 90%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(-45deg, #bb1a7b 10%,#084bb8 90%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(135deg, #bb1a7b 10%,#084bb8 90%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#bb1a7b', endColorstr='#084bb8',GradientType=1 ); 
     color: #ffffff;
 }
 
