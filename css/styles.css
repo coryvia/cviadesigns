@@ -8,7 +8,7 @@ body {
 }
 
 .color-5oh8crew h2, .color-5oh8crew h3, .color-5oh8crew h4, .color-5oh8crew h5, .color-5oh8crew h6 {
-	color: #094eb6;
+	color: #164490;
 }
 
 section {
@@ -26,11 +26,11 @@ section {
 }
 
 .color-5oh8crew a {
-	color: #094eb6;
+	color: #164490;
 }
 
 a:hover {
-	color: #094eb6;
+	color: #164490;
 	text-decoration: underline !important;
 }
 
@@ -49,10 +49,10 @@ a:hover {
 
 .bg-5oh8 {
 	background: #bb1a7b; /* Old browsers */
-    background: -moz-linear-gradient(-45deg, #bb1a7b 10%, #084bb8 90%); /* FF3.6-15 */
-    background: -webkit-linear-gradient(-45deg, #bb1a7b 10%,#084bb8 90%); /* Chrome10-25,Safari5.1-6 */
-    background: linear-gradient(135deg, #bb1a7b 10%,#084bb8 90%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#bb1a7b', endColorstr='#084bb8',GradientType=1 ); 
+    background: -moz-linear-gradient(-45deg, #bb1a7b 10%, #164490 90%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(-45deg, #bb1a7b 10%,#164490 90%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(135deg, #bb1a7b 10%,#164490 90%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#bb1a7b', endColorstr='#164490',GradientType=1 ); 
     color: #ffffff;
 }
 
