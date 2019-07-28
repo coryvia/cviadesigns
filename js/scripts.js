@@ -1,7 +1,7 @@
 $(document).ready(function() {
 	
 	$('#contact .col1 h2 a').mouseenter(function() {
-		$(this).html('cviadesigns@gmail.com');
+		$(this).html('me@coryvia.com');
 	});
 
 	$('#contact .col1 h2 a').mouseleave(function() {
