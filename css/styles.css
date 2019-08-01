@@ -61,10 +61,10 @@ a:hover {
 
 .bg-inside-1 {
 	background: #bb1a7b; /* Old browsers */
-    background: -moz-linear-gradient(45deg, #95bf47 20%, #164490 80%); /* FF3.6-15 */
-    background: -webkit-linear-gradient(45deg, #95bf47 20%,#164490 80%); /* Chrome10-25,Safari5.1-6 */
-    background: linear-gradient(45deg, #95bf47 20%,#164490 80%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#95bf47', endColorstr='#164490',GradientType=1 ); 
+    background: -moz-linear-gradient(45deg, #95bf47 20%, #95bf47 80%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(45deg, #95bf47 20%,#95bf47 80%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(45deg, #95bf47 20%,#95bf47 80%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#95bf47', endColorstr='#95bf47',GradientType=1 ); 
     color: #ffffff;
 }
 
