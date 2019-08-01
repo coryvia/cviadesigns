@@ -16,7 +16,7 @@ body {
 }
 
 .color-inside-1 h2, .color-inside-1 h3, .color-inside-1 h4, .color-inside-1 h5, .color-inside-1 h6 {
-	color: #2db470;
+	color: #164490;
 }
 
 .color-5oh8crew a {
@@ -56,11 +56,11 @@ a:hover {
 }
 
 .bg-inside-1 {
-	background: #1abb68; /* Old browsers */
-    background: -moz-linear-gradient(-45deg, #1abb68 10%, #084bb8 90%); /* FF3.6-15 */
-    background: -webkit-linear-gradient(-45deg, #1abb68 10%,#084bb8 90%); /* Chrome10-25,Safari5.1-6 */
-    background: linear-gradient(135deg, #1abb68 10%,#084bb8 90%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1abb68', endColorstr='#084bb8',GradientType=1 ); 
+	background: #bb1a7b; /* Old browsers */
+    background: -moz-linear-gradient(45deg, #bb1a7b 20%, #164490 80%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(45deg, #bb1a7b 20%,#164490 80%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(45deg, #bb1a7b 20%,#164490 80%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#bb1a7b', endColorstr='#164490',GradientType=1 ); 
     color: #ffffff;
 }
 
