@@ -66,6 +66,7 @@ a:hover {
     background: linear-gradient(45deg, #95bf47 20%,#95bf47 80%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#95bf47', endColorstr='#95bf47',GradientType=1 ); 
     color: #ffffff;
+    background-image: url('img/spotify-logo-bg.png');
 }
 
 .bg-5oh8 {
