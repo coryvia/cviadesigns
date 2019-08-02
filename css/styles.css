@@ -242,6 +242,10 @@ header {
 
 	#services-shopify ul {
 	    font-size: 0.9rem;
-		margin: 0 1rem;
+		margin: 0 2rem;
 	    padding: 0 0 0 1rem;
 	}
+
+		#services-shopify ul ul {
+		    margin: 0;
+		}
