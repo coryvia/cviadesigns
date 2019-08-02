@@ -60,7 +60,7 @@ a:hover {
 }
 
 .bg-inside-1 {
-	background: #bb1a7b; /* Old browsers */
+	background: #5e8e3e; /* Old browsers */
     background-image: url('/shopify/img/shopify-logo-bg.png'), linear-gradient(45deg, #95bf47 20%,#5e8e3e 80%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
     color: #ffffff;
 }
@@ -191,6 +191,8 @@ header {
 		}
 	}
 
+#about {}
+
 	#about img {
 	    border: 1px solid #2db470;
 	    padding: 2px;
@@ -201,16 +203,23 @@ header {
 		width: 30%;
 	}
 
-	#contact {}
+#contact {}
 
-		#contact p {
-			font-size: 1.6rem;
-		}
+	#contact p {
+		font-size: 1.6rem;
+	}
 
-		#contact h2 {
-			font-size: 1.3rem;
-		}
+	#contact h2 {
+		font-size: 1.3rem;
+	}
 
-		#contact h2, #contact p {
-			text-align: center;
-		}
+	#contact h2, #contact p {
+		text-align: center;
+	}
+
+#services-shopify {}
+
+	#services-shopify img {
+	    border: 1px solid #2db470;
+	    padding: 2px;
+	}
