@@ -228,8 +228,17 @@ header {
 
 	#services-shopify h3 {
 		font-size: 1.4rem;
+		text-align: center;
 	}
 
 	#services-shopify h3 svg {
 		color: #5e8e3e;
+	}
+
+	#services-shopify p {
+		text-align: center;
+	}
+
+	#services-shopify ul {
+		padding: 0 1rem;
 	}
