@@ -232,7 +232,7 @@ header {
 		text-align: center;
 	}
 
-	#services-shopify h3 svg {
+	#services-shopify h2 svg, #services-shopify h3 svg {
 		color: #5e8e3e;
 	}
 
