@@ -220,8 +220,12 @@ header {
 #services-shopify {}
 
 	#services-shopify img {
-	    border: 1px solid #2db470;
+	    border: 1px solid #5e8e3e;
 	    margin-bottom: 1rem;
 	    padding: 2px;
 	    width: 90%;
+	}
+
+	#services-shopify h3 i {
+		color: #5e8e3e;
 	}
