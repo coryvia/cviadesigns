@@ -249,3 +249,9 @@ header {
 		#services-shopify ul ul {
 		    margin: 0;
 		}
+
+#store-migration {}
+
+	#store-migration h2 svg, #store-migration h3 svg {
+		color: #5e8e3e;
+	}
