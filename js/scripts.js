@@ -1,5 +1,4 @@
 $(document).ready(function() {
-	
 	$('#contact .col0 h2 a').mouseenter(function() {
 		$(this).html('Let\'s meet!');
 	});
