@@ -242,9 +242,17 @@ header {
 
 	#services-shopify ul {
 	    font-size: 0.9rem;
-		margin: 0 2rem;
-	    padding: 0 0 0 1rem;
+		list-style-type: none;
+		padding: 0;
+		margin: 0;
+		text-align: center;
 	}
+
+		#services-shopify ul li {
+			border-bottom: 1px dotted #000;
+			padding: 0.4rem 2rem;
+			display: inline-block;
+		}
 
 		#services-shopify ul ul {
 		    margin: 0;
