@@ -255,7 +255,7 @@ header {
 		}
 
 		#services-shopify ul ul {
-		    margin: 0;
+			font-size: .9rem;
 		}
 
 			#services-shopify ul ul li {
