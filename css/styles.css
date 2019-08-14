@@ -255,11 +255,13 @@ header {
 		}
 
 		#services-shopify ul ul {
-			font-size: .9rem;
+			font-size: .8rem;
+			font-style: italic;
 		}
 
 			#services-shopify ul ul li {
 				border-bottom: none;
+				display: block;
 				padding: 0.2rem 0;
 			}
 
