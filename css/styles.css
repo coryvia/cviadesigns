@@ -254,6 +254,10 @@ header {
 			display: inline-block;
 		}
 
+		#services-shopify ul li:last-child {
+			border-bottom: none;
+		}
+
 		#services-shopify ul ul {
 			font-size: .8rem;
 			font-style: italic;
