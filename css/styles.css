@@ -258,6 +258,11 @@ header {
 		    margin: 0;
 		}
 
+			#services-shopify ul ul li {
+				border-bottom: none;
+				padding: 0.2rem 0;
+			}
+
 #store-migration {}
 
 	#store-migration h2 svg, #store-migration h3 svg {
